@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
+title: janne pusa - contact
 ---
 
 <!-- Markdown Preview - https://dillinger.io/ -->

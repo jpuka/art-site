@@ -1,5 +1,8 @@
 ---
 layout: ../layouts/Layout.astro
+title: janne pusa - projects
 ---
 
-coming soon..
+[exhibited](/exhibited)
+
+[experimental](/experimental)
