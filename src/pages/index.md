@@ -7,7 +7,8 @@ title: janne pusa
 
 # janne pusa
 
-hello, friend! welcome to my website.
+hello, friend! welcome to my site.
 
 [projects](/projects)
+
 [contact](/contact)
