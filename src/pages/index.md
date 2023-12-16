@@ -1,17 +1,13 @@
 ---
 layout: ../layouts/Layout.astro
-title: Nice Tat Astro Template
+title: janne pusa
 ---
+
 <!-- Markdown Preview - https://dillinger.io/ -->
 
-# Nice Tat Astro Template
+# janne pusa
 
-[youtube](https://www.youtube.com/watch?v=sEyHnHjhlr4)
+hello, friend! welcome to my website.
 
-[instagram](https://www.instagram.com/caseyneistat/)
-
-[onlyfans](/onlyfans)
-
-[twitter](https://twitter.com/Casey)
-
+[projects](/projects)
 [contact](/contact)

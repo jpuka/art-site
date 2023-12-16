@@ -1,6 +1,3 @@
+export const SITE_NAME = "janne pusa";
 
-
-export const SITE_NAME = 'Nice Tat'
-
-
-export const DESCRIPTION = 'Astro Site Template inspired by Casey Neistat’s ultra minimal personal site. '
+export const DESCRIPTION = "art projects by janne pusa";
