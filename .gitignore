@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # personal notes
 TODO.md
+
+# unlighthouse reports
+.unlighthouse
