@@ -1,18 +1,21 @@
 ---
 layout: ../layouts/Layout.astro
-title: janne pusa
+# title: janne pusa
 ---
 
 <!-- Markdown Preview - https://dillinger.io/ -->
 
 # janne pusa
 
-hello, friend! welcome to my site.
+<!-- todo: space these out properly -->
+<!-- is h2 good way to do the description? maybe better tag exists -->
 
-feel free to look around. no hurry, take as much time as you'd like.
+<!-- ## new media artist & ai developer -->
+
+hello, friend! welcome to my site. feel free to look around.
 
 [projects](/projects)
 
-[contact](/contact)
+<!-- [contact](/contact) -->
 
-[advice](/advice)
+[breathe](/breathe)

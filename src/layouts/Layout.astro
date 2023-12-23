@@ -15,6 +15,7 @@ interface Props {
 const { frontmatter } = Astro.props
 
 const isHome = Astro.url.pathname === '/'
+// const isProjects = Astro.url.pathname === '/projects'
 
 const pageTitle = [
 	frontmatter.title ? frontmatter.title : undefined,
@@ -46,10 +47,14 @@ const pageTitle = [
 				<slot />
 			</main>
 
+			<!-- Could make a "back" button here as well at least for projects -->
 			<footer>
 				{ !isHome && (
 					<a href="/">home</a>
 				)}
+				<!-- { !isProjects && (
+					<a href="/projects">projects</a>
+				)} -->
 			</footer>
 		</div>
 	</body>
@@ -69,6 +74,7 @@ const pageTitle = [
 	html {
 		font-family: "JetBrains Mono", system-ui, sans-serif;
 		font-size: 12px;
+		/* todo:  */
 		line-height: 1.2rem;
 		background: #13151a;
 		background-size: 224px;
@@ -109,11 +115,22 @@ const pageTitle = [
 		font-size: 1.1rem;
 		font-style: italic;
 		font-weight: 500;
-		margin-bottom: 0.3rem;
+		margin-bottom: 2.5rem;
 	}
 
+	/* Links */
+	a {
+		line-height: 2rem;
+	}
 
+	/* Standard text TODO: figure this out*/
+	p {
+		margin-bottom: 1rem;
+	}
+
+	/* This underlines links not on the home page */
 	body:not(.is-home) a {
+		line-height: 5rem;
 		text-decoration: underline;
 	}
 </style>
